@@ -1,0 +1,21 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+body {
+  background-color: #f2f2f2;
+}
+
+.form {
+  margin: 20px auto auto auto;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 600px;
+  box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
+  padding: 2px 55px 33px 55px;
+  background-color: white;
+}
+.form > h3 {
+  margin-bottom: 50px;
+}
+.buttons {
+  margin-top: 50px;
+}

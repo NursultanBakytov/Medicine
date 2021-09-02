@@ -1,0 +1,19 @@
+{
+  "name": "medicine",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "cd ./client && yarn",
+    "client": "npm run start --prefix client",
+    "dev": " concurrently \"npm run start\" \"npm run client\""
+  }
+}

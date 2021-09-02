@@ -1,0 +1,228 @@
+.pointer {
+  cursor: pointer;
+}
+.hr {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+.hr:before {
+  content: '';
+  display: block;
+  width: 40%;
+  height: 2px;
+  background: #bbb;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.hr:after {
+  content: '';
+  display: block;
+  width: 40%;
+  height: 2px;
+  background: #bbb;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.signin {
+  margin-left: 100px;
+}
+
+.social_icon {
+  width: 40px;
+  height: 40px;
+}
+/* sign with anon */
+.btn_anon {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: auto 45%;
+}
+/* patient and doctor signup */
+.doctorSignup {
+  margin-left: 200px;
+}
+/* signupLogin */
+.signupLogin {
+  margin: auto auto auto 80px;
+}
+/* ----------------------------- Start loading-css ----------------------------- */
+.loader11 {
+  width: 100px;
+  height: 70px;
+  margin: 50px auto;
+  position: relative;
+}
+.loader11 span {
+  display: block;
+  width: 5px;
+  height: 10px;
+  background: #e43632;
+  position: absolute;
+  bottom: 0;
+  animation: loading-11 2.25s infinite ease-in-out;
+}
+.loader11 span:nth-child(2) {
+  left: 11px;
+  animation-delay: 0.2s;
+}
+.loader11 span:nth-child(3) {
+  left: 22px;
+  animation-delay: 0.4s;
+}
+.loader11 span:nth-child(4) {
+  left: 33px;
+  animation-delay: 0.6s;
+}
+.loader11 span:nth-child(5) {
+  left: 44px;
+  animation-delay: 0.8s;
+}
+.loader11 span:nth-child(6) {
+  left: 55px;
+  animation-delay: 1s;
+}
+.loader11 span:nth-child(7) {
+  left: 66px;
+  animation-delay: 1.2s;
+}
+.loader11 span:nth-child(8) {
+  left: 77px;
+  animation-delay: 1.4s;
+}
+.loader11 span:nth-child(9) {
+  left: 88px;
+  animation-delay: 1.6s;
+}
+@-webkit-keyframes loading-11 {
+  0% {
+    height: 10px;
+    transform: translateY(0);
+    background: #ff4d80;
+  }
+  25% {
+    height: 60px;
+    transform: translateY(15px);
+    background: #3423a6;
+  }
+  50% {
+    height: 10px;
+    transform: translateY(-10px);
+    background: #e29013;
+  }
+  100% {
+    height: 10px;
+    transform: translateY(0);
+    background: #e50926;
+  }
+}
+@keyframes loading-11 {
+  0% {
+    height: 10px;
+    transform: translateY(0);
+    background: #ff4d80;
+  }
+  25% {
+    height: 60px;
+    transform: translateY(15px);
+    background: #3423a6;
+  }
+  50% {
+    height: 10px;
+    transform: translateY(-10px);
+    background: #e29013;
+  }
+  100% {
+    height: 10px;
+    transform: translateY(0);
+    background: #e50926;
+  }
+}
+
+/* ----------------------------- End loading-css ----------------------------- */
+
+/* ----------------------------- start docImage ----------------------------- */
+
+.img {
+  object-fit: cover;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border: 3px black solid;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+#input[type='file'] {
+  display: none;
+}
+/* ----------------------------- End docImage ----------------------------- */
+
+/* ----------------------------- start DocList ----------------------------- */
+.DocListLeft {
+  padding: 25px 25px 20px 32px;
+  background-color: white !important;
+  box-shadow: 0 2px 12px rgb(0 40 117 / 6%);
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+/* avatarSize */
+.avatar {
+  margin-left: 1.5rem;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+/* doctor-card-information */
+.doctor-card-information {
+  flex-wrap: wrap;
+}
+
+/* ------------- Satrt Video Call ------------- */
+
+#me {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+#me video {
+  position: relative !important;
+}
+#remote-container {
+  display: flex;
+}
+#remote-container video {
+  height: auto;
+  position: relative !important;
+}
+/* ------------- End Video Call ------------- */
+/* ------------- Start Calendar ------------- */
+
+/* -------------End Calendar ------------- */
+.time {
+  background-color: #81d4fa;
+  width: 80px;
+  color: #01579b;
+  border-radius: 5px;
+}
+
+/* ------------- Tabs ------------- */
+.inactive {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+/* ------------- btnNavbar ------------- */
+
+.btnNavbar {
+  margin: 320px auto auto 20px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
